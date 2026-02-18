@@ -1,7 +1,7 @@
 {
   "extends": "./node_modules/@microsoft/rush-stack-compiler-4.7/includes/tsconfig-web.json",
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "forceConsistentCasingInFileNames": true,
     "module": "commonjs",
     "declaration": true,
@@ -17,13 +17,12 @@
       "./node_modules/@microsoft"
     ],
     "types": [
-      "es6-promise"
+      "es6-promise",
+      "node"
     ],
     "lib": [
-      "es5",
-      "dom",
-      "es2015.collection",
-      "es2015.promise"
+      "es2016",
+      "dom"
     ],
     "jsx": "react"
   },
