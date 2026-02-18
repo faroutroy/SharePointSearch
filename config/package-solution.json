@@ -1,31 +1,11 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
   "solution": {
-    "name": "spfx-custom-search",
+    "name": "spfx-custom-search-client-side-solution",
     "id": "b1c2d3e4-f5a6-7890-bcde-f12345678901",
     "version": "1.0.0.0",
     "includeClientSideAssets": true,
-    "skipFeatureDeployment": true,
-    "isDomainIsolated": false,
-    "developer": {
-      "name": "",
-      "privacyUrl": "",
-      "termsOfUseUrl": "",
-      "websiteUrl": "",
-      "mpnId": "Undefined-1.18.2"
-    },
-    "metadata": {
-      "shortDescription": {
-        "default": "Custom SPFx Search Web Part"
-      },
-      "longDescription": {
-        "default": "A custom SharePoint Framework search web part built with React that searches across SharePoint list items and document libraries."
-      },
-      "screenshotPaths": [],
-      "videoUrl": "",
-      "categories": []
-    },
-    "features": []
+    "skipFeatureDeployment": true
   },
   "paths": {
     "zippedPackage": "solution/spfx-custom-search.sppkg"
