@@ -1,0 +1,30 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/core-build/webpack-config/2.0/webpack-config.schema.json",
+  "version": "2.0",
+  "bundles": [
+    {
+      "name": "custom-search-web-part",
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/customSearch/CustomSearchWebPart.js",
+          "manifest": "./src/webparts/customSearch/CustomSearchWebPart.manifest.json"
+        }
+      ]
+    }
+  ],
+  "externals": {
+    "react": {
+      "path": "react",
+      "resourcePath": "node_modules/react/umd/react.production.min.js",
+      "globalName": "React",
+      "globalDependencies": []
+    },
+    "react-dom": {
+      "path": "react-dom",
+      "resourcePath": "node_modules/react-dom/umd/react-dom.production.min.js",
+      "globalName": "ReactDOM",
+      "globalDependencies": ["react"]
+    }
+  },
+  "localizedResources": {}
+}
