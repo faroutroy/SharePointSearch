@@ -31,6 +31,7 @@
     "@microsoft/sp-module-interfaces": "1.18.2",
     "@rushstack/eslint-config": "3.0.0",
     "@types/es6-promise": "3.3.0",
+    "@types/node": "17.0.45",
     "@types/react": "17.0.45",
     "@types/react-dom": "17.0.17",
     "@types/webpack-env": "1.15.2",
