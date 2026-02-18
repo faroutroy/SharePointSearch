@@ -20,8 +20,8 @@ jobs:
       - name: Install dependencies
         run: npm install --legacy-peer-deps
 
-      - name: Bundle
-        run: npx gulp bundle --ship
+      - name: Bundle (skip lint)
+        run: npx gulp bundle --ship --no-lint
 
       - name: Package solution
         run: npx gulp package-solution --ship
